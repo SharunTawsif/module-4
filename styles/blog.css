@@ -15,6 +15,20 @@ nav ul a{
 
 /* form css start */
 
-.alingment label{
-    display: block;
+/* td jehetu ekta predefined class tai eitar agee dot(.) deya lage na..onekta nav er moto concept */
+td {
+    border: 1px solid black;
+     padding: 15px 20px;
+     text-align: center;
 }
+table{
+    /* border gula shob mile gese...majhe kono gap nai */
+    border-collapse: collapse;
+   
+}
+th{
+    border: 1px solid black;
+    padding: 15px 20px;
+    text-align: center;
+}
+
