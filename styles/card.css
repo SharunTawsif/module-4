@@ -1,0 +1,24 @@
+.card{
+    width: 300px;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 20px 12px black;
+    text-align: left;
+    
+}
+.card img{
+    width: 100%;
+    border-radius: 10px;
+}
+.card-container{
+    display: flex;
+    gap: 50px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+.card-section{
+    text-align: center;
+}
