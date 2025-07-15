@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flex box</title>
+    <!-- felx er kaaj hoilo ekta line er moddhe shob boshay fela..porer line e o flow ta hoite dey na -->
+    <style>
+      .container {
+        display: flex;
+      }
+      .container div {
+        border: 2px solid tomato;
+        height: 50px;
+        font-size: 2em;
+        width: 200px;
+        text-align: center;
+      }
+      .box {
+        font-size: 2em;
+        border: 1px solid black;
+        height: 40px;
+        width: 40px;
+        text-align: center;
+      }
+      .box-container {
+        display: flex;
+        gap: 50px;
+      }
+      .user {
+        border: 2px solid aqua;
+        height: 60px;
+        width: 90px;
+        background-color: yellow;
+        text-align: center;
+        font-size: 2em;
+      }
+      .user-container {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 30px;
+      }
+      .card {
+        border: 2px solid rebeccapurple;
+      }
+      /* flex er kaaj hoilo ek line er moddhe shob rakha..r eikhane flex-wrap use korsi eitar mane hoilo eita ke onno line e ami vaag kore dite chai */
+      .card-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div>1</div>
+      <div>2</div>
+      <div>3</div>
+      <div>4</div>
+      <div>5</div>
+      <div>6</div>
+    </div>
+
+    <div class="box-container">
+      <!-- .box{$} \*6  ->eita use korle auto 6 ta create hoye jabe -->
+      <div class="box">1</div>
+      <div class="box">2</div>
+      <div class="box">3</div>
+      <div class="box">4</div>
+      <div class="box">5</div>
+      <div class="box">6</div>
+    </div>
+    <!-- jokhn ei shob box gulake ek line e niye ashte hbe tokhn oder parent ke display: flex korte bollei ek line e chole ashbe -->
+
+    <div class="user-container">
+      <!-- .user{user-$}*3 -->
+      <div class="user">user-1</div>
+      <div class="user">user-2</div>
+      <div class="user">user-3</div>
+    </div>
+
+    <div class="card-container">
+      <!-- .card{card-$}*12 -->
+      <div class="card">card-1</div>
+      <div class="card">card-2</div>
+      <div class="card">card-3</div>
+      <div class="card">card-4</div>
+      <div class="card">card-5</div>
+      <div class="card">card-6</div>
+      <div class="card">card-7</div>
+      <div class="card">card-8</div>
+      <div class="card">card-9</div>
+      <div class="card">card-10</div>
+      <div class="card">card-11</div>
+      <div class="card">card-12</div>
+      <div class="card">card-13</div>
+      <div class="card">card-14</div>
+      <div class="card">card-15</div>
+      <div class="card">card-16</div>
+      <div class="card">card-17</div>
+      <div class="card">card-18</div>
+      <div class="card">card-19</div>
+      <div class="card">card-20</div>
+    </div>
+  </body>
+</html>
+
+<!--
+items learned:
+    1. flex
+    2. flex wrap
+ -->
