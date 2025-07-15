@@ -1,0 +1,30 @@
+.banner{
+    display: flex;
+    background-color: aquamarine;
+    padding: 30px;
+    font-size: 20px;
+    align-items: center;
+    gap: 20px;
+    
+}
+.banner img{
+    width: 40xp;
+    height: auto;
+}
+body{
+    max-width: 1300px;
+    background-color: lightskyblue;
+    margin: 0 auto;
+}
+
+button{
+    background-color: orange;
+    border-radius: 5px;
+    border-color: white;
+    cursor: pointer;
+    
+}
+button :hover{
+    background-color: brown;
+
+}
